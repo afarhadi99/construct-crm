@@ -1,4 +1,3 @@
-```typescript
 'use client';
 
 import { useAuth } from '@/components/auth/AuthProvider';
@@ -114,4 +113,3 @@ export function useSubscription(): {
     isFreeTier: !isPro,
  };
 }
-```
