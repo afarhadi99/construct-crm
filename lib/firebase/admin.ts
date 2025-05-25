@@ -1,4 +1,3 @@
-```typescript
 import admin from 'firebase-admin';
 
 // Ensure that the environment variables are correctly loaded
@@ -27,4 +26,3 @@ const adminDb = admin.firestore();
 const adminStorage = admin.storage();
 
 export { adminAuth, adminDb, adminStorage, admin };
-```
