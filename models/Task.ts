@@ -1,4 +1,3 @@
-```typescript
 import { Timestamp } from 'firebase/firestore';
 
 export type TaskStatus = 'To Do' | 'In Progress' | 'Blocked' | 'In Review' | 'Completed';
@@ -21,4 +20,3 @@ export interface Task {
   // subTasks?: Array<{ title: string; completed: boolean }>;
   // comments?: Array<{ userId: string; text: string; createdAt: Timestamp }>;
 }
-```
