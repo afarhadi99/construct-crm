@@ -1,4 +1,3 @@
-```markdown
 # ConstructCRM SaaS Project Plan
 
 ## Phase 0: Project Initialization & Setup
@@ -85,4 +84,3 @@
 - [x] Finalize the list of environment variables required. (Provided)
 - [x] Write a brief `README.md` for project setup and running. (Created)
 - [x] Ensure all `todo.md` items are checked or appropriately deferred. (All primary items addressed)
-```
