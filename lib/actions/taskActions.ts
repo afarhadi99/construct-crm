@@ -1,4 +1,3 @@
-```typescript
 'use server';
 
 // Basic stub for task actions
@@ -65,4 +64,3 @@ export async function updateTask(userId: string, taskId: string, formData: FormD
 export async function deleteTask(userId: string, taskId: string): Promise<TaskActionResult> {
     return { success: false, error: "Not implemented" };
 }
-```
