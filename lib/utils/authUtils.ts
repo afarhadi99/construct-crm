@@ -1,4 +1,3 @@
-```typescript
 import { cookies } from 'next/headers';
 import { adminAuth } from '@/lib/firebase/admin';
 import type { User as FirebaseUser } from 'firebase/auth'; // For return type consistency if needed
@@ -60,4 +59,3 @@ export async function clearSessionCookie(): Promise<void> {
     // cookies().delete('session');
     console.log("clearSessionCookie function needs to be implemented.");
 }
-```
