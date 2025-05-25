@@ -1,4 +1,3 @@
-```typescript
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -241,4 +240,3 @@ export function ProjectForm({ userId, project }: ProjectFormProps) {
     </form>
   );
 }
-```
