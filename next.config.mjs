@@ -1,4 +1,3 @@
-```javascript
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // reactStrictMode: true, // React 19 handles this differently, strict mode is effectively always on for relevant checks
@@ -24,4 +23,3 @@ const nextConfig = {
 };
 
 export default nextConfig;
-```
