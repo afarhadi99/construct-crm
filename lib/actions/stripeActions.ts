@@ -1,4 +1,3 @@
-```typescript
 'use server';
 
 import { stripeAdmin } from '@/lib/stripe/admin';
@@ -106,4 +105,3 @@ export async function createCustomerPortalSession(stripeCustomerId: string) {
     return { error: error.message || 'Could not create customer portal session.', portalUrl: null };
   }
 }
-```
