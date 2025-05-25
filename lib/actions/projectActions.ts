@@ -1,4 +1,3 @@
-```typescript
 'use server';
 
 import { adminDb, admin } from '@/lib/firebase/admin';
@@ -200,4 +199,3 @@ export async function deleteProject(userId: string, projectId: string): Promise<
     return { success: false, error: error.message || "Failed to delete project." };
   }
 }
-```
