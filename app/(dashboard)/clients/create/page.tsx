@@ -1,4 +1,3 @@
-```typescript
 import { ClientForm } from '@/components/dashboard/ClientForm'; // Will create this stub
 import { getCurrentUser } from '@/lib/utils/authUtils';
 import Link from 'next/link';
@@ -45,4 +44,3 @@ export default async function CreateClientPage() {
     </div>
   );
 }
-```
