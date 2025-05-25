@@ -1,4 +1,3 @@
-```typescript
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Navbar } from '@/components/layout/Navbar'; // Re-using Navbar for consistent header
@@ -108,4 +107,3 @@ export default function LandingPage() {
     </div>
   );
 }
-```
