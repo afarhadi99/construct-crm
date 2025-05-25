@@ -6,7 +6,7 @@
 Built with a cutting-edge technology stack including Next.js 15, Firebase, TypeScript, and Stripe, ConstructCRM aims to provide an intuitive user experience and powerful features tailored to the unique needs of construction professionals.
 
 ## ✨ Key Features
-
+ 
 *   **User Authentication:** Secure sign-up, sign-in, and session management powered by Firebase Authentication.
 *   **Subscription Tiers:** Flexible subscription plans (Free, Pro Monthly, Pro Yearly) managed via Stripe, with access to different feature sets.
 *   **Account Management:** Users can update their profile information and manage their subscription through an integrated Stripe Customer Portal.
