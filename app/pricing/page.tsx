@@ -1,4 +1,3 @@
-```typescript
 'use client'; // Make it a client component to use hooks and handle actions
 
 import { useState } from 'react';
@@ -152,5 +151,3 @@ export default function PricingPage() {
     </div>
   );
 }
-
-```
