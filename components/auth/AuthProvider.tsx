@@ -1,4 +1,3 @@
-```typescript
 'use client';
 
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
@@ -69,4 +68,3 @@ export const useAuth = (): AuthContextType => {
   }
   return context;
 };
-```
