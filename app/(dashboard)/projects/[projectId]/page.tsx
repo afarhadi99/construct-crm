@@ -1,4 +1,3 @@
-```typescript
 import { getProjectById } from '@/lib/actions/projectActions';
 import { getCurrentUser } from '@/lib/utils/authUtils';
 import { ProjectForm } from '@/components/dashboard/ProjectForm'; // Re-use for editing
@@ -178,4 +177,3 @@ export default async function ProjectDetailPage({ params }: { params: { projectI
 
 // You might want a not-found.tsx in app/(dashboard)/projects/[projectId]/
 // or a global one in app/
-```
