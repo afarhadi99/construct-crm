@@ -1,4 +1,3 @@
-```typescript
 import { Timestamp } from 'firebase/firestore';
 
 export type SubscriptionTier = 'free' | 'monthly' | 'yearly';
@@ -30,4 +29,3 @@ export interface PricingPlan {
   features: string[];
   isPopular?: boolean;
 }
-```
