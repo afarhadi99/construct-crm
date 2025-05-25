@@ -1,4 +1,3 @@
-```typescript
 import Link from 'next/link';
 import { Briefcase, Twitter, Github, Linkedin } from 'lucide-react';
 
@@ -39,4 +38,3 @@ export function Footer() {
     </footer>
   );
 }
-```
