@@ -1,0 +1,125 @@
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* Light mode background - White */
+    --foreground: 224 71.4% 4.1%; /* Light mode text - Dark Blue/Black */
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+
+    --primary: 210 40% 98%; /* Light mode primary - Very Light Blue (almost white for subtle elements) */
+    --primary-foreground: 222 47% 11%; /* Text on primary - Dark Blue */
+
+    --secondary: 220 14.3% 95.9%; /* Light mode secondary - Light Gray */
+    --secondary-foreground: 222.2 47.4% 11.2%; /* Text on secondary - Dark Blue */
+
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 224 71.4% 4.1%;
+
+    --radius: 0.75rem; /* Slightly larger radius for a modern feel */
+
+    /* Custom colors for ConstructCRM */
+    --brand-blue: 217 91% 60%; /* A vibrant blue for branding */
+    --brand-blue-foreground: 0 0% 100%;
+    --brand-teal: 173 96% 32%; /* A teal accent */
+    --brand-teal-foreground: 0 0% 100%;
+
+    /* Glassmorphism variables */
+    --glass-bg-light: rgba(255, 255, 255, 0.6);
+    --glass-border-light: rgba(255, 255, 255, 0.2);
+    --glass-shadow-light: rgba(0, 0, 0, 0.1);
+
+    --glass-bg-dark: rgba(30, 30, 40, 0.6); /* Example dark mode glass */
+    --glass-border-dark: rgba(255, 255, 255, 0.1);
+    --glass-shadow-dark: rgba(0, 0, 0, 0.2);
+  }
+
+  .dark {
+    --background: 224 71.4% 4.1%; /* Dark mode background - Dark Blue/Black */
+    --foreground: 210 20% 98%; /* Dark mode text - Light Gray/White */
+
+    --card: 224 71.4% 4.1%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 224 71.4% 4.1%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 217 32.6% 17.5%; /* Dark mode primary - Darker Blue */
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 222.2 47.4% 11.2%; /* Dark mode secondary - Very Dark Blue */
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+
+    --accent: 217 32.6% 17.5%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 210 20% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1; /* Enable common ligatures */
+  }
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom utility for glassmorphism */
+@layer utilities {
+  .glass-card {
+    @apply bg-[var(--glass-bg-light)] shadow-glass border border-[var(--glass-border-light)];
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+  }
+  .dark .glass-card {
+    @apply bg-[var(--glass-bg-dark)] shadow-glass border border-[var(--glass-border-dark)];
+  }
+
+  /* Custom scrollbar for a sleeker look */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-secondary;
+  }
+}
+```
