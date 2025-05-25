@@ -1,4 +1,3 @@
-```typescript
 import { type ClassValue, clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
 
@@ -31,4 +30,3 @@ export function getInitials(name: string = ''): string {
     .join('')
     .toUpperCase();
 }
-```
