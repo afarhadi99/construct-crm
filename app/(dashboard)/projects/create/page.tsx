@@ -1,4 +1,3 @@
-```typescript
 import { ProjectForm } from '@/components/dashboard/ProjectForm'; // Will create this
 import { getCurrentUser } from '@/lib/utils/authUtils';
 import Link from 'next/link';
@@ -51,4 +50,3 @@ export default async function CreateProjectPage() {
     </div>
   );
 }
-```
