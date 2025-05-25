@@ -1,4 +1,3 @@
-```typescript
 import { Timestamp } from 'firebase/firestore';
 
 export type ProjectStatus = 'Planning' | 'In Progress' | 'On Hold' | 'Completed' | 'Canceled';
@@ -23,4 +22,3 @@ export interface Project {
   // Future: attachments (URLs to files in Firebase Storage)
   // attachments?: Array<{ name: string; url: string; uploadedAt: Timestamp }>;
 }
-```
