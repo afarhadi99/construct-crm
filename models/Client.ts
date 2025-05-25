@@ -1,4 +1,3 @@
-```typescript
 import { Timestamp } from 'firebase/firestore';
 
 export interface Client {
@@ -17,4 +16,3 @@ export interface Client {
   // Future: projectHistory (array of projectIds associated with this client)
   // projectIds?: string[];
 }
-```
