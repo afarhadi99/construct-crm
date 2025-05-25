@@ -1,4 +1,3 @@
-```typescript
 "use client"
 
 import {
@@ -34,4 +33,3 @@ export function Toaster() {
     </ToastProvider>
   )
 }
-```
