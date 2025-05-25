@@ -1,4 +1,3 @@
-```typescript
 'use client'; // Can be a client component to use hooks like useAuth
 
 import { useAuth } from '@/components/auth/AuthProvider';
@@ -123,4 +122,3 @@ export default function DashboardPage() {
     </div>
   );
 }
-```
