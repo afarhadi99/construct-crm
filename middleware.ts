@@ -1,4 +1,3 @@
-```typescript
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { adminAuth } from '@/lib/firebase/admin'; // Using admin SDK to verify token
@@ -113,4 +112,3 @@ If you are relying purely on client-side Firebase Auth and protecting routes mai
 However, for true route protection at the edge/server level before rendering, a server-verifiable token (like a session cookie) is necessary.
 The `request.cookies.get('session')?.value;` line implies such a cookie is being set elsewhere (e.g., after login via an API route).
 */
-```
