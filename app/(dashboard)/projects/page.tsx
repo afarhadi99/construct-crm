@@ -1,4 +1,3 @@
-```typescript
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ProjectCard } from '@/components/dashboard/ProjectCard'; // Will create this
@@ -86,4 +85,3 @@ export default async function ProjectsPage() {
     </div>
   );
 }
-```
