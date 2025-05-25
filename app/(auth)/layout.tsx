@@ -1,4 +1,3 @@
-```typescript
 import React from 'react';
 
 export default function AuthLayout({
@@ -24,4 +23,3 @@ export default function AuthLayout({
 //   </div>
 // </div>
 // However, the current design has a full-page gradient background defined in the page.tsx files.
-```
