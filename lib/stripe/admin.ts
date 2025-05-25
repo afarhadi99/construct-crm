@@ -1,4 +1,3 @@
-```typescript
 import Stripe from 'stripe';
 
 if (!process.env.STRIPE_SECRET_KEY) {
@@ -37,4 +36,3 @@ export async function getStripeProductWithPrices(productId: string) {
     return null;
   }
 }
-```
