@@ -1,4 +1,3 @@
-```typescript
 'use server';
 
 import { adminDb, admin } from '@/lib/firebase/admin';
@@ -116,5 +115,3 @@ export async function deleteClient(userId: string, clientId: string): Promise<Cl
     // Implementation stub
     return {success: false, error: "Not implemented"};
 }
-
-```
