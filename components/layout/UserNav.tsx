@@ -1,4 +1,3 @@
-```typescript
 'use client';
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -132,4 +131,3 @@ export function UserNav() {
 
 // Need to import auth from firebase client for signout
 import { auth } from '@/lib/firebase/client';
-```
