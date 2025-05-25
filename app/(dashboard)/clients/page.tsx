@@ -1,4 +1,3 @@
-```typescript
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { getClientsByUser } from '@/lib/actions/clientActions';
@@ -88,4 +87,3 @@ export default async function ClientsPage() {
     </div>
   );
 }
-```
