@@ -1,4 +1,3 @@
-```typescript
 import { PricingPlan, SubscriptionTier } from "@/models/Subscription";
 
 export const MAX_FREE_PROJECTS = 3;
@@ -80,4 +79,3 @@ export function getPlanByPriceId(priceId: string): PricingPlan | undefined {
 export function getPlanByTier(tier: SubscriptionTier): PricingPlan | undefined {
   return pricingPlans.find(plan => plan.id === tier);
 }
-```
