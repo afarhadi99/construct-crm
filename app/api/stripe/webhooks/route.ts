@@ -1,4 +1,3 @@
-```typescript
 import { NextRequest, NextResponse } from 'next/server';
 import Stripe from 'stripe';
 import { stripeAdmin } from '@/lib/stripe/admin';
@@ -174,4 +173,3 @@ export async function POST(req: NextRequest) {
 // Note: Stripe CLI can be used to test webhooks locally:
 // `stripe listen --forward-to localhost:3000/api/stripe/webhooks`
 // Ensure your STRIPE_WEBHOOK_SECRET is set in .env.local for local testing.
-```
