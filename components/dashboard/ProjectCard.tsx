@@ -1,4 +1,3 @@
-```typescript
 'use client'; // Can be client if it has interactions, or server if just display
 
 import Link from 'next/link';
@@ -153,4 +152,3 @@ export function ProjectCard({ project, className, style }: ProjectCardProps) {
     </Card>
   );
 }
-```
