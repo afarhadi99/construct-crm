@@ -1,4 +1,3 @@
-```typescript
 "use client"
 
 import * as React from "react"
@@ -65,4 +64,3 @@ function Calendar({
 Calendar.displayName = "Calendar"
 
 export { Calendar }
-```
