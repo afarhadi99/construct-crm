@@ -1,4 +1,3 @@
-```typescript
 'use client'; // If it has client-side interactions for adding/editing tasks inline
 
 import { Task } from '@/models/Task';
@@ -55,4 +54,3 @@ export function TaskList({ projectId, initialTasks, userId }: TaskListProps) {
     </Card>
   );
 }
-```
