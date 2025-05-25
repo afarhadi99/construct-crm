@@ -1,4 +1,3 @@
-```typescript
 import { Timestamp } from 'firebase/firestore';
 
 export interface UserProfile {
@@ -19,4 +18,3 @@ export interface UserProfile {
   // Application-specific role or tier
   subscriptionTier?: 'free' | 'monthly' | 'yearly' | null;
 }
-```
