@@ -1,4 +1,3 @@
-```typescript
 'use server';
 
 import { auth } from '@/lib/firebase/client'; // Client SDK for signout
@@ -63,4 +62,3 @@ export async function updateUserDisplayName(uid: string, newDisplayName: string)
     return { success: false, message: error.message || "Failed to update display name." };
   }
 }
-```
